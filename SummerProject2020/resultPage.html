@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="resultStyles.css">
+        <script type="text/javascript" src="searchengine.js"></script>
+        <script type="text/javascript" src="VoviData.js"></script>      
+    </head>
+
+    <body>
+        <div style="display:block">
+            <a href="index.html"><img class="vovi" src="vovilogo.jpg"></a>
+            <div >
+                <form class="search" onsubmit="return false">
+                    <input required class="round" id="input" name="input" value="" placeholder="Tìm Kiếm">
+                    <button class="button" onclick="javascript:window.ThuVienVoVi.Util.setkey(); javascript:window.ThuVienVoVi.Util.result();" formaction="resultPage.html" id="btn"><i class="fa fa-search fa-lg" aria-hidden="true"></i></button>
+                </form>                    
+            </div>  
+        </div> 
+        <br><br><br><br><br>
+        <div class="result" id="elements"></div>
+        <br><br>
+        <div class="result">
+                <div id="0"></div>
+                <br>
+                <div id="1"></div>
+                <br>
+                <div id="2"></div>
+                <br>
+                <div id="3"></div>
+                <br>
+                <div id="4"></div>
+                <br>
+                <div id="5"></div>
+                <br>
+                <div id="6"></div>
+                <br>
+                <div id="7"></div>
+                <br>
+                <div id="8"></div>
+                <br>
+                <div id="9"></div>
+                <br>                   
+        </div>
+        
+        <div class="pagination">
+            <a class="paginationArrow1" onclick="javascript:window.ThuVienVoVi.Util.prev()" href="#">&laquo;</a>
+            <div id="nums" class="nums"></div>
+            <a class="paginationArrow2" onclick="javascript:window.ThuVienVoVi.Util.next()" href="#">&raquo;</a>
+        </div>
+           
+        
+
+        
+    </body>
+    
+</html>

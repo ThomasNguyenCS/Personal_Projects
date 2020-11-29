@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;   
+    padding: 0;
+    background: none;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: green;
+}
+
+h3 {
+    margin: 0px;
+    padding-right: 30%;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+h4 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: hotpink;
+}
+
+.nums {
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.pagination {
+    padding-left: 40px;
+}
+.pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+  }
+  
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+.result {
+    padding-left: 40px;
+}
+
+.round {    
+    border-radius: 15px;
+}
+
+.search {
+    position: relative; 
+    padding-top: 28px;
+    padding-left: 10px;
+    float: left;
+}
+
+.search input {
+    width: 500px;
+    height: 30px;
+   
+}
+
+.vovi {
+    padding-top: 20px;
+    padding-left: 20px;
+    float: left;
+    display: block;
+    width:50px;
+    height:50px;
+}
